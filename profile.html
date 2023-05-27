@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="profile.css" />
+    <title>Contest: Profile</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="navbar">
+        <div id="logo">
+          <a href="#">Header</a>
+        </div>
+        <div class="nav-links">
+          <div id="signup"><a href="#">Signup</a></div>
+          <div id="profile" class="profile"><a href="#">Profile</a></div>
+        </div>
+      </div>
+      <div class="profile-container">
+        <div class="user-details">
+          <div class="profile">Profile</div>
+          <div id="userFullName">Full Name :</div>
+          <div id="userEmail">Email :</div>
+          <div id="userPassword">Password :</div>
+          <div
+            id="success-msg"
+            class="form-status"
+            style="display: none; color: green; font-size: 1rem"
+          >
+            Logout Successfully!
+          </div>
+          <button id="logout" class="btn">Logout</button>
+        </div>
+      </div>
+    </div>
+    <script src="profile.js"></script>
+  </body>
+</html>
